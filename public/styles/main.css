@@ -88,11 +88,11 @@ main .left {
 }
 
 main .left h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 main .left p {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 main .left .actions {
@@ -101,7 +101,8 @@ main .left .actions {
 }
 
 main .left .btn {
-  width: 45%;
+  border: 1px solid #1f1f1f;
+  width: 222px;
   height: 60px;
   font-size: 1.8rem;
   background-color: rgb(236, 236, 236);
@@ -118,17 +119,28 @@ main .left .btn-active {
   color: rgb(236, 236, 236);
 }
 
-@media screen and (max-width: 768px) {
+main .right img {
+  width: 600px;
+}
+
+@media screen and (max-width: 1090px) {
   main .left {
     width: 100%;
+    align-items: center;
   }
 
   main .right {
     width: 100%;
   }
 
-  main .right img {
+  main .right {
     width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  main .right img {
+    width: 70%;
   }
 
   header {
@@ -151,9 +163,11 @@ main .left .btn-active {
     font-size: 1rem;
   }
 
+  main .left .actions {
+    width: 50%;
+  }
+
   main .left .btn {
-    width: 45%;
-    height: 60px;
     font-size: 1rem;
   }
 }

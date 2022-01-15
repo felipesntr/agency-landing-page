@@ -170,4 +170,10 @@ main .right img {
   main .left .btn {
     font-size: 1rem;
   }
+
+  .main-menu {
+    width: 100%;
+    border-bottom: 1px solid #1f1f1f;
+    border-right: 1px solid #1f1f1f;
+  }
 }
